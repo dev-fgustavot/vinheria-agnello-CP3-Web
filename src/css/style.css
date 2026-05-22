@@ -62,3 +62,181 @@ body {
   border: 3px solid rgba(212, 175, 55, 0.85);
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.38);
 }
+
+.conteudo-principal {
+  width: 92%;
+  max-width: 1050px;
+  margin: 42px auto;
+}
+
+/* Seções simples, no estilo da imagem de referência */
+.secao {
+  background-color: var(--cor-secao);
+  margin-bottom: 30px;
+  padding: 42px 56px;
+  border-left: 6px solid var(--cor-vinho);
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(75, 15, 26, 0.12);
+}
+
+.secao h2 {
+  color: var(--cor-vinho);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+.secao p {
+  font-size: 1.08rem;
+  line-height: 1.7;
+  margin-bottom: 14px;
+  color: var(--cor-texto);
+}
+
+.secao strong {
+  color: var(--cor-texto);
+}
+
+/* Lista de funcionalidades */
+.lista-funcionalidades {
+  list-style: none;
+}
+
+.lista-funcionalidades li {
+  position: relative;
+  font-size: 1.12rem;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  padding-left: 34px;
+}
+
+/* Ícone antes dos itens da lista */
+.lista-funcionalidades li::before {
+  content: "🍷";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Destaque para trechos de código */
+code {
+  background-color: var(--cor-codigo);
+  color: var(--cor-vinho-escuro);
+  font-family: "Courier New", monospace;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* Caixa de aviso */
+.aviso {
+  background-color: var(--cor-aviso);
+  border-left: 4px solid var(--cor-dourado);
+  padding: 15px 18px;
+  border-radius: 8px;
+  color: var(--cor-texto-suave);
+  margin-top: 18px;
+}
+
+/* Rodapé */
+.rodape {
+  text-align: center;
+  background-color: var(--cor-vinho-escuro);
+  color: #ffffff;
+  padding: 20px;
+  border-top: 4px solid var(--cor-dourado);
+}
+
+.rodape p {
+  font-size: 0.95rem;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  .cabecalho {
+    padding: 28px 16px;
+  }
+
+  .cabecalho h1 {
+    font-size: 2.2rem;
+  }
+
+  .cabecalho p {
+    font-size: 0.95rem;
+  }
+
+  .banner-principal {
+    padding: 20px 14px;
+  }
+
+  .banner-principal img {
+    border-radius: 12px;
+  }
+
+  .conteudo-principal {
+    width: 94%;
+    margin: 32px auto;
+  }
+
+  .secao {
+    padding: 32px 28px;
+  }
+
+  .secao h2 {
+    font-size: 1.7rem;
+  }
+
+  .secao p,
+  .lista-funcionalidades li {
+    font-size: 1rem;
+  }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+  .cabecalho h1 {
+    font-size: 1.9rem;
+  }
+
+  .cabecalho p {
+    font-size: 0.9rem;
+  }
+
+  .banner-principal {
+    padding: 16px 10px;
+  }
+
+  .banner-principal img {
+    border-radius: 10px;
+    border-width: 2px;
+  }
+
+  .conteudo-principal {
+    width: 95%;
+    margin: 26px auto;
+  }
+
+  .secao {
+    padding: 26px 20px;
+    border-left: 5px solid var(--cor-vinho);
+  }
+
+  .secao h2 {
+    font-size: 1.45rem;
+    margin-bottom: 18px;
+  }
+
+  .secao p {
+    font-size: 0.98rem;
+  }
+
+  .lista-funcionalidades li {
+    font-size: 0.98rem;
+    padding-left: 30px;
+  }
+
+  code {
+    font-size: 0.88rem;
+    padding: 3px 6px;
+  }
+}
