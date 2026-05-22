@@ -17,3 +17,48 @@
   --cor-codigo: #f4ebe5;
   --cor-aviso: #fff7df;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  min-height: 100vh;
+}
+
+/* Cabeçalho principal */
+.cabecalho {
+  background: linear-gradient(135deg, var(--cor-vinho-escuro), var(--cor-vinho));
+  color: #ffffff;
+  text-align: center;
+  padding: 34px 20px;
+  border-bottom: 4px solid var(--cor-dourado);
+}
+
+.cabecalho h1 {
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.cabecalho p {
+  font-size: 1.05rem;
+  opacity: 0.95;
+}
+
+/* Banner principal */
+.banner-principal {
+  width: 100%;
+  background-color: #2a0d10;
+  padding: 26px 20px;
+  text-align: center;
+}
+
+.banner-principal img {
+  width: 100%;
+  max-width: 1180px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 3px solid rgba(212, 175, 55, 0.85);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.38);
+}
