@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Paleta de cores do projeto */
+:root {
+  --cor-vinho: #8b2f3d;
+  --cor-vinho-escuro: #4b0f1a;
+  --cor-vinho-medio: #6f1d2d;
+  --cor-dourado: #d4af37;
+  --cor-fundo: #f8f0e3;
+  --cor-secao: #ffffff;
+  --cor-texto: #111827;
+  --cor-texto-suave: #4b5563;
+  --cor-codigo: #f4ebe5;
+  --cor-aviso: #fff7df;
+}
